@@ -3,17 +3,66 @@
   "formatVersion": 2,
   "id": 1,
   "ideas": {
-    "1": {
-      "title": "front end, web application",
-      "id": 2
-    },
-    "2": {
-      "title": "Database",
-      "id": 4
-    },
     "-1": {
-      "title": "REST service",
-      "id": 3
+      "title": "Server environment",
+      "id": 13,
+      "ideas": {
+        "1": {
+          "title": "Back end",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Service layer",
+              "id": 3,
+              "ideas": {
+                "1": {
+                  "title": "REST Interface",
+                  "id": 5
+                },
+                "2": {
+                  "title": "SOAP Interface",
+                  "id": 6
+                }
+              }
+            },
+            "2": {
+              "title": "Business layer",
+              "id": 8
+            },
+            "3": {
+              "title": "Data layer",
+              "id": 9
+            },
+            "4": {
+              "title": "Database",
+              "id": 11
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#00ff00"
+            }
+          }
+        },
+        "2": {
+          "title": "front end, web application",
+          "id": 14,
+          "attr": {
+            "style": {
+              "background": "#ccffff"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ffcc99"
+        }
+      }
     }
-  }
+  },
+  "attr": {
+    "style": {}
+  },
+  "links": []
 }
