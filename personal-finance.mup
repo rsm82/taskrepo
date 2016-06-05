@@ -1,0 +1,19 @@
+{
+  "title": "personal-finance",
+  "formatVersion": 2,
+  "id": 1,
+  "ideas": {
+    "1": {
+      "title": "front end, web application",
+      "id": 2
+    },
+    "2": {
+      "title": "Database",
+      "id": 4
+    },
+    "-1": {
+      "title": "REST service",
+      "id": 3
+    }
+  }
+}
